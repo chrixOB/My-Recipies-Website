@@ -1,0 +1,269 @@
+/*let's add some awesome syles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.super-div{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    height: fit-content;
+    border:  1px solid red;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border:  1px solid blue;
+    list-style-type: none ;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(34, 24, 24);
+
+}
+li{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    margin-left: 7px;
+    
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+#logo{
+    color: blue;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#button{
+    background: rgb(62, 62, 189);
+    color: white;
+    height: 40px;
+    width: 70px;
+    border-radius:8px ;
+    font-size: large;
+    border-color: rgb(82, 82, 212);
+    box-shadow: none;
+    stroke: none;
+}
+#button:hover{
+    background: rgb(62, 62, 125);
+}
+.intro{
+    background: linear-gradient(rgba(56,76,89,0.6),rgba(54,76,87,0.5)), url(./eggy.jpg);
+    height: 250px;
+    margin-top: 30px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size:x-large;
+
+}
+.intro .top{
+    font-size:70px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+    width: 120px;
+    height: 100vh;
+    margin-top: 10px;
+}
+.menu li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.menu li a{
+    color: grey;
+    font-size: medium;
+}
+.menu .bigger{
+    margin-top: 8px;
+    font-size: x-large;
+}
+.main{
+    border: 1px solid greenyellow;
+    display: flex;
+    flex-direction: row;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 242px;
+}
+.grid img{
+    height: 200px;
+    width: 280px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid div img p h4{
+    color: grey;
+}
+.footer{
+    text-align: center;
+    height: 70px;
+    background: rgb(41, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer .span-blue{
+    color: rgb(82, 82, 212) ;
+}
+.footer .span-white{
+    color: white;
+}
+
+/*beef dot html*/
+h2{
+    margin-top: 50px;
+}
+
+/*about dot html*/
+.about{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+.picture{
+    width: 620px;
+}
+.info{
+    height: 350px ;
+    width: 50%;
+    padding-left: 30px;
+
+}
+.info p{
+    margin-bottom: 25px;
+}
+.salt{
+    height: 350px;
+    width: 570px; 
+    margin-left: 50px;
+}
+#btn{
+    background: rgb(62, 62, 189);
+    color: white;
+    height: 40px;
+    width: 70px;
+    border-radius:8px ;
+    font-size: large;
+    border-color: rgb(82, 82, 212);
+    box-shadow: none;
+    stroke: none;
+}
+.header{
+    margin-top: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/*contact dot html*/
+.contact{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+.brief{
+    height: 350px ;
+    width: 50%;
+    padding-left: 30px;
+
+}
+.brief p{
+    margin-bottom: 25px;
+}
+.form{
+    height: 350px;
+    width: 570px; 
+    margin-left: 20%;
+    margin-top: 15px;
+    border: 1px solid brown;
+    padding: 10px;
+}
+textarea{
+    background: rgb(207, 201, 201);
+}
+input{
+    background: rgb(207, 201, 201);
+    width: 500px;
+}
+.submit{
+    background: blue;
+    height: 25px;
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+.inner{
+    margin-bottom: 15px;
+    
+}
+
+/*Tags dot html*/
+.wrapper{
+    display: grid;
+    gap: 2rem;
+    padding-bottom: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 240px;
+}
+.tags{
+    background: grey;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    transition: 1s ease-in-out;
+    height: 100px;
+    padding-top: 30px;
+}
+.tags:hover{
+    background: rgb(62, 62, 189);
+}
+.tags h5{
+    font-weight: 600px;
+}
+
+.pancake{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+.pancake-pic{
+    width: 620px;
+}
+.info-icons{
+    height: 350px ;
+    width: 50%;
+    padding-left: 30px;
+
+}
